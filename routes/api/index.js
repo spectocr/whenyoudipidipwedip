@@ -2,14 +2,14 @@ const router = require('express').Router();
 
 ///update these with the new names.
 
-//const userRoutes = require('./user-routes');
+const userRoutes = require('./userRoutes');
 ////const postRoutes = require('./post-routes');
 //const commentRoutes = require('./comment-routes');
 
 
 ///update these with the new names.
 
-// router.use('/users', userRoutes);
+ router.use('/users', userRoutes);
 // router.use('/posts', postRoutes);
 // router.use('/comments', commentRoutes);
 
