@@ -10,19 +10,29 @@
 </head>
 <body>
   <header>
-    <nav>nav</nav>
   </header>
   <main>
     <form>
-      <h1>Login Form</h1>
+      <h1 class="h3 mb-3 fw-normal">Login Form</h1>
       <div class="formcontainer">
       <hr/>
       <div class="container">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" name="uname"  placeholder="name@example.com or chxrulz1">
+          <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control"  name="psw" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    <!--
         <label for="uname"><strong>Username</strong></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <input type="text" class="form-floating" placeholder="Enter Username" name="uname" required>
         <label for="psw"><strong>Password</strong></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-      </div>
+        <input type="password" class="form-floating" placeholder="Enter Password" name="psw" required>
+      </div>-->
       <button type="button" value="button">Login</button>
           <button type="button" class="regNow" id="regNow">Register Now</button>
     </form>
