@@ -9,7 +9,8 @@ const userRoutes = require('./userRoutes');
 
 ///update these with the new names.
 
- router.use('/users', userRoutes);
+//  router.use('/users', userRoutes);
+// console.log(userRoutes);
 // router.use('/posts', postRoutes);
 // router.use('/comments', commentRoutes);
 
