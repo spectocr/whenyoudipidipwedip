@@ -56,7 +56,7 @@ main {
       }
       h1 {
       text-align:center;
-      fone-size:18;
+      font-size:18;
       }
       button:hover {
       opacity: 0.8;
@@ -74,6 +74,9 @@ main {
       padding-top: 0;
       padding-right: 15px;
       }
+.class skills {
+  float:none;
+}
 
 body {
   margin: 0;
