@@ -7,6 +7,10 @@ const userRoutes = require('./userRoutes');
 //const commentRoutes = require('./comment-routes');
 
 
+router.use('/users', userRoutes);
+
+
+
 ///update these with the new names.
 
 //  router.use('/users', userRoutes);
